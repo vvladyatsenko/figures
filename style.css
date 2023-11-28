@@ -1,0 +1,35 @@
+.animated-ellipse {
+  width: 160px;
+  height: 110px;
+  fill: #ff4500;
+  stroke: #008080;
+  stroke-width: 5;
+  animation: changeColors 3s infinite alternate;
+}
+
+@keyframes changeColors {
+  0% {
+    stroke: #008080;
+    fill: #ff4500;
+  }
+  20% {
+    stroke: #ff00ff;
+    fill: #00ffff;
+  }
+  40% {
+    stroke: #ff8c00;
+    fill: #8a2be2;
+  }
+  60% {
+    stroke: #008000;
+    fill: #ffff00;
+  }
+  80% {
+    stroke: #ff0000;
+    fill: #008000;
+  }
+  100% {
+    stroke: #008080;
+    fill: #ff4500;
+  }
+}
